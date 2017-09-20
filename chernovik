@@ -1,0 +1,3 @@
+mosquitto_sub -d -h broker.cloudmqtt.com -p <port> -u <username> -P <password> -t topic
+
+mosquitto_pub -h broker.cloudmqtt.com -p <port> -u <username> -P <password> -t topic -m message
